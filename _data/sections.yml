@@ -1,6 +1,7 @@
 - id: one
   title: Martinique aktiv erleben
   nav-title: Aktiv Erleben
+  copyright: © CMT/R. Pakiela
   description: "Wagen Sie ein tropisches Abenteuer und erkunden Sie die Insel zu Wasser und zu Land oder treffen Sie Sportfans aus aller Welt bei großen Sportveranstaltungen – hier finden Sie die besten Tipps"
 
   pois:
@@ -10,14 +11,17 @@
 
       - id: 1-1
         title: Aktiv in & auf dem Wasser
-        description: "Martinique ist ein wahres Wassersportparadies: Paddeln Sie im Kajak durch die Mangroven, erkunden Sie schnorchelnd die wunderschönen Fonds Blancs, tauchen Sie mit Delfinen, Walen und Schildkröten, versuchen Sie sich im Kite- oder Windsurfen – oder entspannen Sie mit Stil auf einem Bootsausflug."
+        copyright: © CMT/Fleur d'O
+        description: "Martinique ist ein wahres Wassersportparadies: Paddeln Sie im transparenten Kajak durch die Mangroven, erkunden Sie schnorchelnd die wunderschönen Fonds Blancs, tauchen Sie mit Delfinen, Walen und Schildkröten, versuchen Sie sich im Kite- oder Windsurfen – oder entspannen Sie mit Stil auf einem Bootsausflug."
 
       - id: 1-2
         title: Aktiv an Land
-        description: "Die einmaligen Wanderrouten der Insel führen Sie entlang der Küste sowie auf die Vulkane Piton Crève-Cœur und Montagne Pelée. Gemütlicher geht es bei romantischen Ausritten oder entspannten Fahrradtouren zu – Abenteuerlustige kommen bei einem Fallschirmsprung oder beim Canyoning auf ihre Kosten."
+        copyright: © CMT/Betty Voyer
+        description: "Die einmaligen Wanderrouten der Insel umfassen insgesamt mehr als 150 Kilometer und führen Sie entlang der Küste sowie auf die Vulkane Piton Crève-Cœur und Montagne Pelée. Gemütlicher geht es bei romantischen Ausritten oder entspannten Fahrradtouren zu – Abenteuerlustige kommen bei einem Fallschirmsprung oder beim Canyoning auf ihre Kosten."
 
       - id: 1-3
         title: Sportveranstaltungen
+        copyright: © CMT/Yann-Mathieu
         description: "Erleben Sie Surf-Wettbewerbe wie den Martinique Surf Pro und den Madinina Kite Master, weltberühmte Regatten wie die Tour de Yoles Rondes de Martinique und die Martinique Flying Regatta sowie Laufveranstaltungen vom Tchimbé Raid über den internationalen Halbmarathon Fort-de-France bis zum 150 km langen Transmartinique."
 
 
@@ -29,7 +33,8 @@
 - id: two
   title: Tropische Naturvielfalt
   nav-title: Natur
-  description: "Überzeugen Sie sich selbst von der bilderbuchartigen Schönheit Martiniques: Entdecken Sie die landschaftliche Vielfalt und den unglaublichen Artenreichtum der Vulkaninsel."
+  copyright: © CMT/D. Giral
+  description: "Überzeugen Sie sich selbst von der bilderbuchartigen Schönheit Martiniques: Entdecken Sie die landschaftliche Vielfalt und den unglaublichen Artenreichtum der Insel."
 
   pois:
 
@@ -38,26 +43,32 @@
 
       - id: 2-1
         title: Über 100 Strände
+        copyright: © CMT/J-M Raggioli
         description: "Weiße Sandstrände, Kokospalmen und azurblaues Meer – dieses Postkartenmotiv erwartet Sie auf Martinique. Darüber hinaus gibt es spektakuläre Küstenabschnitte wie die Îlet Sainte-Marie, ca. 200 m vor der Küste Martiniques: In den Wintermonaten formen Wind und Wellen den Tombolo, eine natürliche Landzunge, die für eine kurze Zeit die beiden Inseln miteinander verbindet. "
 
       - id: 2-2
         title: Wald-Vielfalt
+        copyright: © CMT/R. Haughton
         description: "Die Wälder der Insel zeigen sich in drei komplett unterschiedlichen Formen: Im Norden der Insel dominiert der tropische Regenwald mit seiner dichten Vegetation, im Herzen der Küstenwälder beeindruckt der gemäßigte Regenwald mit seiner Artenvielfalt und auf der Caravelle-Halbinsel bildet der Trockenwald mit seinen Sandflächen und Kakteen den Lebensraum für Tiere wie den grünen Leguan. "
 
       - id: 2-3
         title: Naturschutzgebiet Caravelle
+        copyright: © CMT/L. Olivier
         description: "Auf der Halbinsel Caravelle hat sich, umgeben von den Wogen des Atlantik, ein unübertroffener Artenreichtum entwickelt. Neben dem ältesten Felsen Martiniques finden Sie hier auch eines der schönsten Wandergebiete der gesamten Insel, eingebettet in das Naturschutzgebiet Parc Naturel de Martinique, wo es über 150 Pflanzenarten und viele endemische Vogelarten zu entdecken gibt. "
 
       - id: 2-4
         title: Montagne Pelée
-        description: "Mit 1.397m ist der Vulkan Montagne Pelée ganz im Norden der Insel Martiniques höchste Erhebung und bietet einen grandiosen Ausblick über den Ozean. Dieser Ort war einst Schauplatz unglaublicher Naturgewalten, als 1902 ein Vulkanausbruch die damalige Hauptstadt Saint-Pierre zerstörte – auch heute noch erzählen Ruinen und Schiffswracks von dieser tragischen Geschichte."
+        copyright: © CMT/D.Giral
+        description: "Mit 1.397 m ist der Montagne Pelée ganz im Norden der Insel Martiniques höchste Erhebung und bietet einen grandiosen Ausblick über den Ozean. Dieser Ort war einst Schauplatz unglaublicher Naturgewalten, als 1902 ein Vulkanausbruch die damalige Hauptstadt Saint-Pierre zerstörte – auch heute noch erzählen Ruinen und Schiffswracks von dieser tragischen Geschichte."
 
       - id: 2-5
         title: Le Domaine D´Émeraude
+        copyright: © CMT/D.Giral
         description: "Am Fuße des Montagne Pelée, nahe der Kleinstadt Le Morne-Rouge, liegt der idyllische Naturpark Domaine d'Émeraude. Das naturbelassene Gebiet bietet mit gepflegten Gärten und dichtem Wald zahlreichen seltenen Tieren ein Zuhause. Im Naturforschungspavillon erfahren Sie außerdem Wissenswertes über die Naturgeschichte der Insel sowie die Naturprodukte der Region."
 
       - id: 2-6
         title: Jardin de Balata
+        copyright: © CMT/L. Olivier
         description: "Im Jardin de Balata wandeln Sie durch einen wahrhaft paradiesischen Garten, in dessen Mitte sich ein Gebäude im kreolischen Stil befindet. Entworfen wurde diese tropische Oase von Jean-Philippe Thoze – einem Gärtner, Landschaftsarchitekten, Designer und Poeten – der seinen Kindheitserinnerungen rund um das Haus seiner Großeltern ein Denkmal gesetzt hat."
 
 
@@ -70,6 +81,7 @@
 - id: three
   title: Mitreißende Kultur
   nav-title: Kultur
+  copyright: © CMT/H. Salomon
   description: "Aus uralten Traditionen und indischen, afrikanischen sowie europäischen Einflüssen entstand auf Martinique eine ebenso reiche wie einzigartige Kultur. Lassen Sie sich mitreißen!"
 
   pois:
@@ -79,15 +91,18 @@
 
       - id: 3-1
         title: Weihnachtssingen Chanté Nwel
+        copyright: © CMT/ H. Salomon
         description: "Zwischen Allerheiligen und Weihnachten kommt man auf Martinique am Abend zusammen, um mit Familie, Freunden und Nachbarn Weihnachtslieder zu singen. Zu Trommel-Rhythmen wird auf Französisch, Latein und Kreolisch gesungen. Außerdem gehört zum Chanté Nwel ein traditionelles Buffet mit dem berühmten Weihnachtsschinken und Ti-Punch."
 
       - id: 3-2
         title: Karneval, ein Fest der Farben
+        copyright: © CMT/H. Salomon
         description: "Mit dem letzten Sonntag vor der Fastenzeit beginnt auf ganz Martinique der Karneval: Ein exzentrisches Volksfest mit farbenfrohen Paraden, aufwendigen Kostümen, wilden Rhythmen und ausgelassener Stimmung. Halten Sie Ausschau nach der burlesken Hochzeit, den roten Teufeln und natürlich dem Karnevalskönig, Seiner Hoheit Vaval."
 
       - id: 3-3
-        title: Tour de Yoles Rondes de Martinique
-        description: "Im Sommer findet das größte Sportereignis der Insel statt: die 180 km lange Segel-Regatta Tour de Yoles Rondes de Martinique. Auf der Yole, einem traditionellen Fischerboot aus Holz und Bambus, wird Martinique einmal komplett umrundet. Jedes Jahr startet die Regatta in einer anderen Stadt, in die tausende Zuschauer pilgern."
+        title: Tours de Martinique des Yoles Rondes
+        copyright: © CMT/Micha
+        description: "Im Sommer findet das größte Sportereignis der Insel statt: die Segel-Regatta Tour de Yoles Rondes de Martinique. Auf der Yole, einem traditionellen Fischerboot aus Holz und Bambus, wird Martinique einmal komplett umrundet. Jedes Jahr startet die Regatta in einer anderen Stadt, in die tausende Zuschauer pilgern."
 
 
 
@@ -96,6 +111,7 @@
 - id: four
   title: Kreolische Genusswelt
   nav-title: Genuss
+  copyright: © CMT/ H. Salomon
   description: "Kosten Sie die Aromen exotischer Früchte und Gewürze, genießen Sie traditionell zubereiteten Fisch und entdecken Sie den vielleicht besten Rum der Welt."
 
   pois:
@@ -105,14 +121,17 @@
 
       - id: 4-1
         title: Rum, die Seele des Zuckerrohrs
-        description: "Zwischen Allerheiligen und Weihnachten kommt man auf Martinique am Abend zusammen, um mit Familie, Freunden und Nachbarn Weihnachtslieder zu singen. Zu Trommel-Rhythmen wird auf Französisch, Latein und Kreolisch gesungen. Außerdem gehört zum Chanté Nwel ein traditionelles Buffet mit dem berühmten Weihnachtsschinken und Ti-Punch."
+        copyright: © CMT/ L. Olivier
+        description: 'Seit dem 17. Jahrhundert wird auf Martinique Rum gebrannt. 11 Brennereien destillieren heute noch die Zuckerrohr-Spirituose, die Sie in zwei Varianten genießen können: als weißen Rhum Agricole oder in Fässern gereift als dunklen Rhum Vieux. Kein anderer Rum der Welt wurde bisher mit dem  AOC-Label „Appellation d’Origine Contrôlée" ausgezeichnet!'
 
       - id: 4-2
         title: "Tradition & hohe Kochkunst"
-        description: "Mit dem letzten Sonntag vor der Fastenzeit beginnt auf ganz Martinique der Karneval: Ein exzentrisches Volksfest mit farbenfrohen Paraden, aufwendigen Kostümen, wilden Rhythmen und ausgelassener Stimmung. Halten Sie Ausschau nach der burlesken Hochzeit, den roten Teufeln und natürlich dem Karnevalskönig, Seiner Hoheit Vaval."
+        copyright: © CMT/ L. Olivier
+        description: "Lassen Sie sich von authentischen Restaurants in die Welt der kreolischen Küche entführen und probieren Sie die Stockfischbällchen Accras, den kreolischen Eintopf Pâté en pot, frisches Fischfilet, Langusten und gefüllte Krabben. Besonders anspruchsvolle Gaumen können sich von den Sterneköchen Marcel Ravin und Louis Philippe Vigilant verwöhnen lassen."
 
       - id: 4-3
         title: Martiniques Märkte
+        copyright: © CMT/H. Salomon
         description: "Entdecken Sie den wichtigsten Markt der Insel: In Fort-de-France werden Obst, Gemüse und Gewürze wie etwa frische Vanille angeboten, hier können Sie aber auch zahlreiche kreolische Gerichte, darunter Chatrous, Lambis und süßes Mandelsulz, probieren. Doch auch die kleinen Dorfmärkte halten diverse kulinarische Entdeckungen für Sie bereit."
 
 

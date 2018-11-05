@@ -14,10 +14,13 @@
           <div class="js-close-modal modal__close"></div>
           <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
           <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>
-          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/highlight{{item.id}}.jpg');"></div>
+          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/highlight{{item.id}}.jpg');">
+            <div class="text text--sm text--white text--bold bv-copyright" >{{section.copyright}}</div>
+          </div>
           <div class="modal__content">
-            <h3 class="title title--sm title--core text--center">{{item.title}}</h3>
+            <div class="sub-title sub-title--md text--center text--normal">{{item.title}}</div>
             <p class="space--sm">{{item.description}}</p>
+            <p class="space--xs"></p>
           </div>
         </div>
 

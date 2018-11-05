@@ -3,7 +3,7 @@
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $orange-dark;
+$nav-color:          $m-light-blue;
 
 
 // global site nav height
@@ -86,12 +86,12 @@ $nav-color:          $orange-dark;
     justify-content: center;
     padding-left: $s4;
     padding-right: $s4;
-    font-family: $font-core;
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: .2em;
+    font-family: $font-title-01;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .05em;
     text-transform: uppercase;
-    color: $white;
+    color: $m-dark-blue;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($nav-color,.66); }

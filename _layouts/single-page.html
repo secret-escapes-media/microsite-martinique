@@ -13,11 +13,11 @@
 
     <div class="content-spacing section-spacing">
 
-      <div class="bg--grey-darker bv-parallax" style="background-image: url();">
-        <div class="container container--xl vpad--xxl text--center text--xxl">
-          <div class="sub-title sub-title--lg">Kleine Antillen, großes Glück</div>
+      <div class=" bv-parallax " style="">
+        <div class="container container--xxl vpad--xxl text--center text--xxl text--normal">
+          <div class="sub-title sub-title--lg text--bold  text--blue">Europa mitten in der Karibik</div>
           <div class="space--md"></div>
-          Zwischen Atlantik und Karibik trifft Regenwald auf Sandstrand, schillernde Unterwasserwelt auf wüstenartige Savanne und exotische Vegetation auf europäische Hotelstandards. Erleben Sie die Vielfalt Martiniques und fühlen Sie sich zwischen Orchideen, Hibiskus-Blüten und in erstklassigen Resorts wie im Paradies. Condor bringt Sie diesen Winter sogar nonstop ab Frankfurt direkt auf die Trauminsel – worauf warten Sie noch?
+          Zwischen Atlantik und Karibik treffen in Martinique Regenwald auf Sandstrand, schillernde Unterwasserwelt auf wüstenartige Savanne und exotische Vegetation auf europäische Hotelstandards. Erleben Sie die die Vielfalt der französischen Insel Martinique und fühlen Sie sich zwischen Orchideen, Hibiskus-Blüten und in erstklassigen Hotels wie im Paradies. Condor bringt Sie diesen Winter sogar nonstop ab Frankfurt auf die Trauminsel – worauf warten Sie noch?
         </div>
       </div>
 
@@ -30,15 +30,15 @@
 
             <div class="row row--valign-center row--gutters-lg row--6-6 text--white text--xxl">
               <div class="col">
-                <div class="title title--md">{{section.title}}</div>
+                <div class="sub-title sub-title--lg text--upper">{{section.title}}</div>
                 <p>{{section.description}}</p>
               </div>
-              <div class="col">
-                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');"></div>
+              <div class="col bv-mob-hide">
+                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');"><div class="text text--sm text--white text--bold bv-copyright" >{{section.copyright}}</div></div>
               </div>
             </div>
 
-            <div class="space--xxl"></div>
+            <div class="space--lg"></div>
 
             <div class="text--center boxpad--sm">
               <div class="title title--sm">{{section.pois.title}}</div>
@@ -48,30 +48,21 @@
                 {% for poi in section.pois.items %}
 
             <div class="col" >
-
-  <!--
-                <div class="bv-bg-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight{{poi.id}}.jpg'); "><div class="bv-plus-btn">+</div>
-                <div class="boxpad--md" >
-                    <div class="text text--xxxl">{{poi.title}}</div>
-                    <div class="space--xs"></div>
-                    <div class="bv-box-height text text--md">{{poi.description}}</div>
-                    <div class="space--xs"></div>
-                    <div class="text text--md text--bold">Mehr erfahren</div>
-                </div></div>-->
-
-
                 <div id="tracking-poi-{{poi.id}}" class=" js-open-modal" data-open-modal="{{poi.id}}">
-                    <div class="bg--white " >
+                    <div class="bg--white " style="cursor: pointer;" >
 
-                        <div class="highlight__image bv-bg-img bg-img bg-img--4-3" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight{{poi.id}}.jpg'); ">
+                        <div class="highlight__image bv-bg-img bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight{{poi.id}}.jpg'); ">
+
                           <div class="bv-plus-btn">+</div>
+                          <div class="text text--sm text--white text--bold bv-copyright" style="">{{poi.copyright}}</div>
                         </div>
                         <div class="boxpad--md" >
-                            <div class="text text--xxxl">{{poi.title}}</div>
+                            <div class="text text--xxxl text--normal">{{poi.title}}</div>
                             <div class="space--xs"></div>
                             <div class="bv-box-height text text--md">{{poi.description}}</div>
-                            <div class="space--xs"></div>
-                            <div class="text text--md text--bold">Mehr erfahren</div>
+                            <div class="title title--sm" style="margin-top:-10px; margin-bottom:10px;">...</div>
+
+                            <div class="text text--md text--bold">Weiterlesen</div>
                         </div>
                     </div>
                 </div>
@@ -85,12 +76,13 @@
 
 
 
-  {% include page/condor.html %}
+      {% include page/condor.html %}
+
 
       <!-- Offers section -->
       <div id="offers" class="js-nav-section">
         <div class="space--xxxl"></div>
-        <div class="title title--xxxl text--center">Angebote</div>
+        <div class="sub-title sub-title--lg text--bolder text--upper text--blue text--center">Angebote</div>
         <div class="space--xxl"></div>
         {% include offer/all-offers.html %}
         <div class="space--xxxl"></div>

@@ -1,7 +1,7 @@
 .btn {
   position: relative;
   display: inline-block;
-  padding: $s2 $s5;
+  padding: $s1 $s4;
   color: $white;
   font-weight: 700;
   font-size: $s-1;
@@ -17,6 +17,7 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
+  &--condor { background-color: $c-orange; }
   &--outline {
     color: inherit;
     &:before {

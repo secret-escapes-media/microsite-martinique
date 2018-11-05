@@ -43,6 +43,34 @@
 
 }
 
+.condor-title {
+
+  // custom content headline
+  font-family: $font-condor;
+  letter-spacing: -0.5px;
+  line-height: 1.3;
+  &--xxxl   { font-size: $s8; }
+  &--xxl    { font-size: $s7; }
+  &--xl     { font-size: $s6; }
+  &--lg     { font-size: $s5; }
+  &--md     { font-size: $s4; }
+  &--sm     { font-size: $s3; }
+  &--xs     { font-size: $s2; }
+  &--xxs    { font-size: $s1; }
+  &--xxxs   { font-size: $s0; }
+  @include bp($lg){
+    &--xxxl   { font-size: $s9; }
+    &--xxl    { font-size: $s8; }
+    &--xl     { font-size: $s7; }
+    &--lg     { font-size: $s6; }
+    &--md     { font-size: $s5; }
+    &--sm     { font-size: $s4; }
+    &--xs     { font-size: $s3; }
+    &--xxs    { font-size: $s2; }
+    &--xxxs   { font-size: $s1; }
+  }
+
+}
 
 .core-title {
 

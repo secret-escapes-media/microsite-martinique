@@ -1,11 +1,12 @@
 # Site settings
-title: Destination Single
+title: Martinique
 client:
-  name: Client Name
-  link: "#client-name"
-core-se-link: https://www.secretescapes.com/current-sales
+  name: Die Blume der Karibik
+  link: "http://bit.ly/2AEY6ye"
+  link2: "https://de.france.fr/de/martinique?utm_source=LogoFrance_SecretEscapes&utm_campaign=Martinique_SecretEscapes&utm_medium=display&utm_term=nov_2018"
+core-se-link: https://www.secretescapes.de/aktuelle-angebote
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Mitten in der Karibik und zugleich ein Teil Europas, trifft dort Regenwald auf Sandstrand, schillernde Unterwasserwelt auf wüstenartige Savanne und exotische Vegetation auf europäische Hotelstandards.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site

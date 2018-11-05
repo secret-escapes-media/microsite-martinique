@@ -19,7 +19,7 @@
     @include bp($bp) { width: 50%; }
   }
   &__text {
-    max-width: $lg;
+    //max-width: $lg;
     margin-left: auto;
     margin-right: auto;
     padding-top: $s4;
