@@ -17,7 +17,8 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
-  &--condor { background-color: $c-orange; }
+  &--condor { background-color: $c-orange;
+    background-image: linear-gradient(45deg, $c-darkorange, $c-lightorange); }
   &--outline {
     color: inherit;
     &:before {

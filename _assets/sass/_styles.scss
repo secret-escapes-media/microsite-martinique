@@ -172,10 +172,34 @@
    Condor banner
    ========================================================================== */
 
+.bv-orange-condor{
+
+background-color: $c-orange;
+background-image: linear-gradient(90deg, $c-darkorange, $c-lightorange);
+height: 20px;
+overflow: visible;
+text-align: center;
+
+@include bp($xxl){
+
+    text-align: left; }
+}
+
+
+.bv-section-condor{
+  color:$white;
+  background-color: #333;
+  /*@include bp($md){
+    height: 70px;
+    overflow: hidden; }*/
+
+}
 
 .bv-logo-condor{
-  width: 200px;
-  margin-bottom: 20px;
+  text-align: center!important;
+  width: 180px;
+  margin-top: -1px;
+
   }
 
 .bv-img-condor{
@@ -183,7 +207,11 @@
     outline-offset: -3px;
     outline: 6px solid #fff;
     box-shadow: 0px 0px 25px 15px rgba($black, .2);
-    transform: rotate(3.5deg);
+    transform: rotate(0deg);
+    margin-top: 15px;
+    @include bp($xxl){
+
+      transform: rotate(3.5deg); }
   }
 
 .bv-badge-condor{
@@ -197,6 +225,7 @@
   letter-spacing: -2px;
   border-radius: 100px;
   background-color: $c-orange;
+  background-image: linear-gradient(45deg, $c-darkorange, $c-lightorange);
   color: $white;
   transform: rotate(0deg);
   z-index: 10;

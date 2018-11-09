@@ -17,7 +17,7 @@
         <div class="container container--xxl vpad--xxl text--center text--xxl text--normal">
           <div class="sub-title sub-title--lg text--bold  text--blue">Europa mitten in der Karibik</div>
           <div class="space--md"></div>
-          Zwischen Atlantik und Karibik treffen in Martinique Regenwald auf Sandstrand, schillernde Unterwasserwelt auf wüstenartige Savanne und exotische Vegetation auf europäische Hotelstandards. Erleben Sie die die Vielfalt der französischen Insel Martinique und fühlen Sie sich zwischen Orchideen, Hibiskus-Blüten und in erstklassigen Hotels wie im Paradies. Condor bringt Sie diesen Winter sogar nonstop ab Frankfurt auf die Trauminsel – worauf warten Sie noch?
+          Mitten in der Karibik und zugleich ein Teil Europas, trifft dort Regenwald auf Sandstrand, schillernde Unterwasserwelt auf wüstenartige Savanne und exotische Vegetation auf europäische Hotelstandards. Erleben Sie die die Vielfalt der französischen Insel Martinique und fühlen Sie sich zwischen Orchideen, Hibiskus-Blüten und in erstklassigen Hotels wie im Paradies. Condor bringt Sie diesen Winter sogar nonstop ab Frankfurt auf die Trauminsel – worauf warten Sie noch?
         </div>
       </div>
 
@@ -25,7 +25,7 @@
 
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
-        <div id="{{section.id}}" class="bv-parallax--darkest js-nav-section vpad--xxl {% cycle 'bg--white', 'bg--light' %}" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');">
+        <div id="{{section.id}}" class="bv-parallax js-nav-section vpad--xxl {% cycle 'bg--white', 'bg--light' %}" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');">
           <div class="container">
 
             <div class="row row--valign-center row--gutters-lg row--6-6 text--white text--xxl">
@@ -34,7 +34,7 @@
                 <p>{{section.description}}</p>
               </div>
               <div class="col bv-mob-hide">
-                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');"><div class="text text--sm text--white text--bold bv-copyright" >{{section.copyright}}</div></div>
+                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}-sm.jpg');"><div class="text text--sm text--white text--bold bv-copyright" >{{section.copyright}}</div></div>
               </div>
             </div>
 

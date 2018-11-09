@@ -2,7 +2,7 @@
   title: Martinique aktiv erleben
   nav-title: Aktiv Erleben
   copyright: © CMT/R. Pakiela
-  description: "Wagen Sie ein tropisches Abenteuer und erkunden Sie die Insel zu Wasser und zu Land oder treffen Sie Sportfans aus aller Welt bei großen Sportveranstaltungen – hier finden Sie die besten Tipps"
+  description: "Wagen Sie ein tropisches Abenteuer und erkunden Sie die Insel zu Wasser und zu Land oder treffen Sie Sportfans aus aller Welt bei großen Sportveranstaltungen – hier finden Sie die besten Tipps."
 
   pois:
 
@@ -34,7 +34,7 @@
   title: Tropische Naturvielfalt
   nav-title: Natur
   copyright: © CMT/D. Giral
-  description: "Überzeugen Sie sich selbst von der bilderbuchartigen Schönheit Martiniques: Entdecken Sie die landschaftliche Vielfalt und den unglaublichen Artenreichtum der Insel."
+  description: "Überzeugen Sie sich selbst von der bilderbuchartigen Schönheit Martiniques: Entdecken Sie die landschaftliche Vielfalt und den unglaublichen Artenreichtum der Insel, der sich alleine in den mehr als 80 Orchideenarten widerspiegelt."
 
   pois:
 
@@ -53,8 +53,8 @@
 
       - id: 2-3
         title: Naturschutzgebiet Caravelle
-        copyright: © CMT/L. Olivier
-        description: "Auf der Halbinsel Caravelle hat sich, umgeben von den Wogen des Atlantik, ein unübertroffener Artenreichtum entwickelt. Neben dem ältesten Felsen Martiniques finden Sie hier auch eines der schönsten Wandergebiete der gesamten Insel, eingebettet in das Naturschutzgebiet Parc Naturel de Martinique, wo es über 150 Pflanzenarten und viele endemische Vogelarten zu entdecken gibt. "
+        copyright: © CMT/R. Haughton
+        description: "Auf der Halbinsel Caravelle hat sich, umgeben von den Wogen des Atlantiks, ein unübertroffener Artenreichtum entwickelt. Neben dem ältesten Felsen Martiniques finden Sie hier auch eines der schönsten Wandergebiete der gesamten Insel, eingebettet in das Naturschutzgebiet Parc Naturel de Martinique, wo es über 150 Pflanzenarten und viele endemische Vogelarten zu entdecken gibt. "
 
       - id: 2-4
         title: Montagne Pelée
@@ -62,13 +62,13 @@
         description: "Mit 1.397 m ist der Montagne Pelée ganz im Norden der Insel Martiniques höchste Erhebung und bietet einen grandiosen Ausblick über den Ozean. Dieser Ort war einst Schauplatz unglaublicher Naturgewalten, als 1902 ein Vulkanausbruch die damalige Hauptstadt Saint-Pierre zerstörte – auch heute noch erzählen Ruinen und Schiffswracks von dieser tragischen Geschichte."
 
       - id: 2-5
-        title: Le Domaine D´Émeraude
-        copyright: © CMT/D.Giral
-        description: "Am Fuße des Montagne Pelée, nahe der Kleinstadt Le Morne-Rouge, liegt der idyllische Naturpark Domaine d'Émeraude. Das naturbelassene Gebiet bietet mit gepflegten Gärten und dichtem Wald zahlreichen seltenen Tieren ein Zuhause. Im Naturforschungspavillon erfahren Sie außerdem Wissenswertes über die Naturgeschichte der Insel sowie die Naturprodukte der Region."
+        title: Étang des Salines
+        copyright: © CMT/R. Haughton
+        description: "Der regionale Naturpark L’étang des Salines, der zum Konservatorium des Küstengebiets gehört,  umfasst u.a. einen Mangroven-Wald, in dem Besucher ausführliche Informationen zu diesem besonderen Ökosystem finden können. Auch ein Observatorium von Tier- und Pflanzenwelt mit vielen pädagogischen Modulen ist in Wassernähe eingerichtet."
 
       - id: 2-6
         title: Jardin de Balata
-        copyright: © CMT/L. Olivier
+        copyright: © CMT/T. Salinière
         description: "Im Jardin de Balata wandeln Sie durch einen wahrhaft paradiesischen Garten, in dessen Mitte sich ein Gebäude im kreolischen Stil befindet. Entworfen wurde diese tropische Oase von Jean-Philippe Thoze – einem Gärtner, Landschaftsarchitekten, Designer und Poeten – der seinen Kindheitserinnerungen rund um das Haus seiner Großeltern ein Denkmal gesetzt hat."
 
 
@@ -100,7 +100,7 @@
         description: "Mit dem letzten Sonntag vor der Fastenzeit beginnt auf ganz Martinique der Karneval: Ein exzentrisches Volksfest mit farbenfrohen Paraden, aufwendigen Kostümen, wilden Rhythmen und ausgelassener Stimmung. Halten Sie Ausschau nach der burlesken Hochzeit, den roten Teufeln und natürlich dem Karnevalskönig, Seiner Hoheit Vaval."
 
       - id: 3-3
-        title: Tours de Martinique des Yoles Rondes
+        title: Tour des Yoles
         copyright: © CMT/Micha
         description: "Im Sommer findet das größte Sportereignis der Insel statt: die Segel-Regatta Tour de Yoles Rondes de Martinique. Auf der Yole, einem traditionellen Fischerboot aus Holz und Bambus, wird Martinique einmal komplett umrundet. Jedes Jahr startet die Regatta in einer anderen Stadt, in die tausende Zuschauer pilgern."
 
