@@ -1,47 +1,42 @@
 <div class="offer">
 
-  <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">View Offer</span></a>
+  <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">Zum Angebot</span></a>
 
   <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')"></div>
 
   <div class="offer__content">
 
-    <h3 class="core-title core-title--xs">{{offer.title}}</h3>
-    <h4 class="offer__location">{{offer.location}}</h4>
-    <div class="offer__description">{{offer.description}}</div>
+    <h3 class="sub-title sub-title--xs" style="line-height: 1.2em;">{{offer.title}}</h3>
+<div class="space--sm"></div>
+<h4 class="offer text--xl" style=" line-height: 1.2em; font-weight:bold;">{{offer.location}}</h4>
+<div class="space--sm"></div>
+<div class="offer__description">{{offer.description}}</div>
 
-    <div class="offer__bottom">
+<div class="offer__bottom">
 
-      <div class="offer__bottom-left">
+  <div class="offer__bottom-left">
 
-        {% if offer.saved %}
-          <div class="offer__saved">
-            <div class="offer__saved-label">Save up to&nbsp;</div>
-            <div class="offer__saved-percent">{{offer.saved}}%</div>
-          </div>
-          <div class="offer__separator"></div>
-        {% endif %}
-
-        <div class="offer__details">
-          <div>From <span class="offer__price">£{{offer.price}}</span></div>
-          <div class="text--sm">{{offer.price-description}}</div>
-          <div class="js-offer-expires text--sm" data-expires="{{offer.expires}}"></div>
-        </div>
-
+    {% if offer.saved %}
+      <div class="offer__saved">
+      <div class="offer__saved-label">Sparen Sie bis zu</div>
+        <div class="offer__saved-percent" >{{offer.saved}}%</div>
       </div>
-      <div class="offer__bottom-right">
-        <div class="offer__arrow"></div>
-      </div>
+      <div class="offer__separator"></div>
+    {% endif %}
+
+    <div class="offer__details">
+      <div>Ab <span class="offer__price text--xxl" >{{offer.price}}€</span></div>
+      <div class="text--sm">{{offer.price-description}}</div>
+      <div class="js-offer-expires text--sm" data-expires="{{offer.expires}}"></div>
+    </div>
+
+  </div>
+  <div class="offer__bottom-right">
+    <div class="offer__arrow"></div>
+  </div>
 
     </div>
 
   </div>
 
 </div>
-
-
-
-
-
-
-
